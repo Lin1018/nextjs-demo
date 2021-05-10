@@ -5,9 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start -p 8888"
   },
   "dependencies": {
+    "antd": "^4.15.4",
+    "axios": "^0.21.1",
+    "moment": "^2.29.1",
     "next": "10.2.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
